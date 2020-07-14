@@ -38,6 +38,6 @@ class School
       @roster[grade]
     end
     
-    School.sort
+    
     
 end
