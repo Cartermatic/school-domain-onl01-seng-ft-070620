@@ -8,8 +8,8 @@ class School
       ROSTER << roster
     end
     
-    def school_name
-      @school_name
+    def school_name=school_name
+      @school_name= school_name
     end
     
     def school_name
