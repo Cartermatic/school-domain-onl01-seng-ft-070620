@@ -39,9 +39,8 @@ class School
     end
     
     def sort
-      @roster.sort_by(&:last)
-      # @roster.each do |grade, name|
-      #   name.sort
+      @roster.each do |grade, name|
+        name.sort
       
     end
     
