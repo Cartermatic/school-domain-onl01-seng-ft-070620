@@ -1,10 +1,11 @@
 class School
   
-  @roster = {}
+  ROSTER = {}
     
     def initialize(school_name, roster)
       @school_name = school_name
       @roster = roster
+      ROSTER << roster
     end
     
     def school_name
@@ -15,7 +16,9 @@ class School
       @school_name
     end
 
-    
+    def roster= roster
+      @roster=roster
+    end
     
     
     
