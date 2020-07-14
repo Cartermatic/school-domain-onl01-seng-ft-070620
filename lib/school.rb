@@ -42,7 +42,7 @@ class School
       @roster.sort_by(&:last)
       # @roster.each do |grade, name|
       #   name.sort
-      end
+      
     end
     
 end
