@@ -25,6 +25,7 @@ class School
       if @roster[grade] == nil
         @roster[grade] << "grade"
     end
+  end
         
     
 end
