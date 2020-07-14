@@ -7,9 +7,9 @@ class School
     def initialize(school_name)
       @school_name = school_name
       @roster = roster
-      binding.pry 
+      
     end
-    
+    binding.pry
     def school_name= (school_name)
       @school_name= school_name
     end
