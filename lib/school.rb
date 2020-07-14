@@ -7,9 +7,8 @@ class School
     def initialize(school_name)
       @school_name = school_name
       @roster = {}
-      
     end
-    binding.pry
+    
     def school_name= (school_name)
       @school_name= school_name
     end
@@ -22,6 +21,10 @@ class School
       @roster= roster
     end
     
-    
+    def add_student(name, grade)
+      if @roster[grade] == nil
+        @roster[grade] << "grade"
+    end
+        
     
 end
