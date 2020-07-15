@@ -39,9 +39,10 @@ class School
     end
     
     def sort
+      sorted_names = {}
       @roster.collect do |grade, name|
         name.sort
-      
+      sorted_names <<
       end
     end
     
